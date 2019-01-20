@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7086362356371961298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6893784164202729681}
+  - component: {fileID: 7688716637342614300}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6893784164202729681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7086362356371961298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3472775, y: 4.27, z: 5.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7688716637342614300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7086362356371961298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de656a7af22b6e4391d6e6674921119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TestSpawnOBJ: {fileID: 3289068624511286149, guid: 96ce0a51ac942a04dbea612ac3ff08e8,
+    type: 3}
+  SpawnLocationOBJ: {fileID: 7086362356371961298}
+  ObjectToSpawn: {fileID: 0}
+  SpawnLocation: {x: 0, y: 0, z: 0}
+  SpawnRadius: 7
+  SpawnLimit: 16
+  Timer: 0
+  TimerTarget: 2
+  TimerUp: 0
+  Spawnobject: 0
+  TimerRunning: 1
+  SpawnRandom: 0
+  SpawnableObjects:
+  - {fileID: 7113806548358892470, guid: 09d3f48cc0f358248848fa2637ce55f2, type: 3}
+  - {fileID: 4760931999495196546, guid: 1b84eacbd6840684b9bc58d5e96bd752, type: 3}
+  - {fileID: 2871086620945875823, guid: 16483e29de7922a479b498d187c078aa, type: 3}
+  - {fileID: 1583215786421253858, guid: c7f38e0ff907cbf4486588a71d99f25c, type: 3}
+  - {fileID: 1123412026727761915, guid: 239c1b35e30c63f46b4f647de7549385, type: 3}
+  - {fileID: 8145158247327152974, guid: 65424ac61fc782e4aa1cd779c039cebf, type: 3}
+  - {fileID: 6580932972238640095, guid: 6c37272f67fce0248a914be919eb20eb, type: 3}
+  SpawnedObjects: []

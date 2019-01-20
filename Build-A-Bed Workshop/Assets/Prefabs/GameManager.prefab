@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3363482876398856926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2389184101996306142}
+  - component: {fileID: 254154796643934404}
+  - component: {fileID: 150783347137132757}
+  - component: {fileID: 1363812919099729766}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2389184101996306142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363482876398856926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7927826, y: -13.563401, z: 8.3825245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &254154796643934404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363482876398856926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ff7ad3ecd042a4190345c2dec93d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameCountdown: 3
+  roundTime: 150
+  endWaitTime: 3
+--- !u!114 &150783347137132757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363482876398856926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a471123ba7bfb48b8fb6c32680f3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sound_Prefab: {fileID: 4391154754304517377, guid: b5454141b692ed547a7656eb34533701,
+    type: 3}
+  Sound_Names:
+  - Pop
+  - Charge
+  - Squeek
+  - DogBark1
+  - DogBark2
+  - DogBark3
+  - DogBark4
+  Sound_Clips:
+  - {fileID: 8300000, guid: 7d093958348b06a4783fe613f025691a, type: 3}
+  - {fileID: 8300000, guid: 08365a39db91dbc4f9fbf409d868a886, type: 3}
+  - {fileID: 8300000, guid: 5f10d64e23973c1429e267f313dcc406, type: 3}
+  - {fileID: 8300000, guid: 53ef14cf39d13bc43a67e5c006e84ae9, type: 3}
+  - {fileID: 8300000, guid: 695c01c8aa889c741ba16e5546a2fae9, type: 3}
+  - {fileID: 8300000, guid: a6597b0e0f4db9d4a9806ff33cfaa620, type: 3}
+  - {fileID: 8300000, guid: 291024b5cc790f942b30d09c9a503d55, type: 3}
+--- !u!114 &1363812919099729766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363482876398856926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635c1038dc570394abe355cede00db32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonInputList:
+  - inputName: Grab
+    button: 1
+  axisInputList:
+  - inputName: MoveHorizontal
+    Axis: 2
+  - inputName: MoveVertical
+    Axis: 1
